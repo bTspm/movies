@@ -25,6 +25,8 @@ Devise.setup do |config|
 
   config.secret_key = 'csecse123'
 
+  config.assets.initialize_on_precompile = false
+
   # ==> Configuration for any authentication mechanism
   # Configure which keys are used when authenticating a user. The default is
   # just :email. You can configure it to use [:username, :subdomain], so for
