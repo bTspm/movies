@@ -5,12 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 
 # heroku
-group :production do
-  gem 'pg'
+group :development, :test do
+ gem 'sqlite3'
 end
-
-group :development do
-gem 'sqlite3'
+group :production do
+ gem 'pg'
 end
 
 gem 'sass-rails', '~> 5.0'
