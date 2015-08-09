@@ -13,7 +13,7 @@ group :production do
 end
 
 # added for divise error in heroku
-gem 'readlines'
+gem 'rb-readline', '~> 0.5.3'
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -31,6 +31,7 @@ gem 'spring'
 gem 'devise'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 gem "bootstrap-sass"
+gem 'unicorn'
 
 
 end
