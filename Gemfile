@@ -19,5 +19,5 @@ gem 'web-console', '~> 2.0'
 gem 'spring'
 gem 'devise'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
-
+gem "bootstrap-sass"
 end
